@@ -9,6 +9,7 @@ import {
   InputGroup,
   InputRightElement,
   Link,
+  MenuIcon,
   Stack,
   Text,
   VStack,
@@ -19,6 +20,9 @@ import React from "react";
 import MenuComponent from "../Components/MenuComponent";
 import SVGICONS from "../Components/SVGICONS";
 import Image from "next/image";
+import DrawerExample from "../Components/Menu";
+import SizeExample from "../Components/Menu";
+
 
 interface Props {
   children: any;
@@ -57,16 +61,17 @@ function MainLayout({ children }: Props) {
             >
               <Input
                 type="text"
-                placeholder="Введите название товара или заболевания"
+                textAlign="center"
+                placeholder="Спасибо за посещение нашего сайта "
                 _placeholder={{ color: "white" }}
                 focusBorderColor="none"
                 border="none !important" />
               <InputRightElement pointerEvents="none" h="100%">
-                <SearchIcon color="brand.white" />
+                {/* <SearchIcon color="brand.white" /> */}
               </InputRightElement>
             </InputGroup>
 
-            <Box display={{ base: "none", lg: "block" }} mt={'0px !important'} >
+            {/* <Box display={{ base: "none", lg: "block" }} mt={'0px !important'} >
               <MenuComponent />
             </Box>
             <Link href="/Login/Login" display={{ base: "none", lg: "block" }} mt={'0px !important'} >
@@ -74,10 +79,12 @@ function MainLayout({ children }: Props) {
             </Link>
             <Link href="/Profil/Profil" display={{ base: "none", lg: "block" }} mt={'0px !important'} >
               <Button bg="brand.lightGreen">Профиль</Button>
-            </Link>
-            <Button bg="brand.lightGreen" marginTop={'0px !important'} display={{ base: "block", lg: "none" }} >
-              <HamburgerIcon  />
-            </Button>
+            </Link> */}
+            {/* <Button bg="brand.lightGreen" marginTop={'0px !important'} display={{ base: "block", lg: "none" }} >
+            </Button> */}
+            <Box bg="brand.lightGreen" marginTop={'0px !important'} display={{ base: "block", lg: "none" }}>
+            <SizeExample/>
+            </Box>
           </Stack>
         </HStack>
       </header>

@@ -5,7 +5,7 @@ export const Button: ComponentStyleConfig = {
   baseStyle: {
     fontSize: "16px",
     padding: "15px 21px",
-    borderRadius: "15px",
+    borderRadius: "15px !important",
     color: "white",
     _hover: {
         backgroundColor: "#00504D !important",
