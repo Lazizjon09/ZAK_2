@@ -21,6 +21,7 @@ export const Text: ComponentStyleConfig = {
             color: "#fff",
             fontSize: "14px",
             fontWeight: "400",
+            textAlign:"start"
         },
         h1: {
             fontFamily: "sans-serif",

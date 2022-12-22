@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Tablets from "../src/Components/Tablets";
+import Textf from "../src/Components/Textf";
 import MainLayout, { defStyle } from "../src/Layout/MainLayout";
 
 const Home: NextPage = () => {
@@ -20,20 +21,21 @@ const Home: NextPage = () => {
 
         </Box>
         <Box
-        bgImage="/zak.png"
+  bgImage="/pill.png"
           w="100%"
           height={{ sm: "500px", esm: "330px", pls: "330px" }}
           overflow="hidden"
           borderRadius="24px"
           style={defStyle}
-          backgroundSize={{pls: "100% 100%", md: "100% 200%"}}
+          backgroundSize={{pls: "105% 100%", md: "100% 190%"}}
           backgroundPosition={{ pls: '0px 0px', md: '0px -200px'}}
           objectFit={'contain'}
         >
+       
           <Center
             padding={"30px"}
             flexDir="column"
-            style={{ backgroundColor: "rgba(0, 80, 77, 0.4)" }}
+            style={{ backgroundColor: "rgba(0, 80, 77, 0.5)" }}
             w="100%"
             h="100%"
             textAlign="center"
@@ -52,21 +54,7 @@ const Home: NextPage = () => {
             >
               ZAK Pharmacy ваш здоровый выбор
             </Text>
-            <Text
-              fontSize={{
-                smm: "22px",
-                pls: "18px",
-                esm: "26px",
-                sm: "30px",
-                md: "40px",
-                lg: "50px",
-              }}
-              color="white"
-              fontWeight="300"
-              mb={"20px"}
-            >
-              Найти лекарства стало очень просто
-            </Text>
+              <Textf/>
             <Link href="/Discraption/Discraption">
               <Button
                 bg="brand.lightGreen"
@@ -115,13 +103,14 @@ const Home: NextPage = () => {
                 bg="#00504D"
                 borderRadius="30px"
               ></Box>
-              <Box position="absolute" left="100px" top="100px">
+              <Box position="absolute" left="100px" top="100px"   >
                 <Img
                   height={{ md: "250px", lg: "250px", xl: "350px" }}
                   width={{ md: "250px", lg: "250px", xl: "350px" }}
                   display={{ base: "none", lg: "block" }}
                   style={{ borderRadius: "30px" }}
-                  src="/kor.png"
+                  src="/zakkkk.png"
+   
                   alt=""
                 />
               </Box>

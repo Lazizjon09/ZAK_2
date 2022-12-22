@@ -58,19 +58,24 @@ function MainLayout({ children }: Props) {
               padding="5px 21px"
               display="flex"
               color="white"
+              textAlign="center"
+              alignItems="center"
             >
               <Input
-                type="text"
-                textAlign="center"
-                placeholder="Спасибо за посещение нашего сайта "
-                _placeholder={{ color: "white" }}
-                focusBorderColor="none"
-                border="none !important" />
-              <InputRightElement pointerEvents="none" h="100%">
-                {/* <SearchIcon color="brand.white" /> */}
-              </InputRightElement>
-            </InputGroup>
+              height="41px"
+              // type="text"
+              textAlign="center"
+              placeholder="Спасибо за посещение нашего сайта "
+              _placeholder={{ color: "white" }}
+              focusBorderColor="none"
+              border="none !important" />
+               {/* <InputRightElement pointerEvents="none" h="100%">
+                <SearchIcon color="brand.white" />
+              </InputRightElement> */}
+         
+              </InputGroup>
 
+     
             {/* <Box display={{ base: "none", lg: "block" }} mt={'0px !important'} >
               <MenuComponent />
             </Box>
@@ -93,7 +98,7 @@ function MainLayout({ children }: Props) {
         <HStack style={defStyle} justifyContent="space-between" alignItems={'center'} gap={{ pls: "40px" }} flexDirection={{ pls: "column", md: "row" }} >
           <Stack w={{ sm: "100%", md: "25%" }} flexDirection={'row'} alignItems="center" justifyContent={'center'} textAlign={{ pls: 'center', md: "start" }}>
             {/* <Image src={logo} alt="Logo" width={'150px'} height="150px" /> */}
-            <Text variant="p" width={'70%'}>
+            <Text variant="p" width={'90%'}>
               Серви поддерживает вас и помогает найти лекарства по выгодным
               ценам и с удобной круглосуточной доставкой почти в любую точку
               страны. Будьте здоровы с нами!
@@ -119,8 +124,8 @@ function MainLayout({ children }: Props) {
               <Text variant="p" fontSize={{ sm: "18px", pls: "13px" }} >Стать курьером</Text>
             </Stack>
           </Stack>
-          <VStack alignItems="flex-start">
-            <Text variant="p">Мы в социальных сетях</Text>
+          <VStack  alignItems="flex-start">
+            <Text  variant="smallHeading" fontSize={{ md: "24px", sm: "20px", smm: "18px" }}>Мы в социальных сетях</Text>
             <HStack>
               <SVGICONS icon="facebook" />
               <SVGICONS icon="instagram" />

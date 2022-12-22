@@ -3,7 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/Discraption/Discraption": "pages/Discraption/Discraption.js",
-  "/Numcod/numcode": "pages/Numcod/numcode.js",
   "/": "pages/index.js",
   "/Register/register": "pages/Register/register.js"
 }
