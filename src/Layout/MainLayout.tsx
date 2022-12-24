@@ -69,24 +69,11 @@ function MainLayout({ children }: Props) {
               _placeholder={{ color: "white" }}
               focusBorderColor="none"
               border="none !important" />
-               {/* <InputRightElement pointerEvents="none" h="100%">
-                <SearchIcon color="brand.white" />
-              </InputRightElement> */}
+      
          
               </InputGroup>
 
      
-            {/* <Box display={{ base: "none", lg: "block" }} mt={'0px !important'} >
-              <MenuComponent />
-            </Box>
-            <Link href="/Login/Login" display={{ base: "none", lg: "block" }} mt={'0px !important'} >
-              <Button bg="brand.lightGreen">Войти/Регистрация</Button>
-            </Link>
-            <Link href="/Profil/Profil" display={{ base: "none", lg: "block" }} mt={'0px !important'} >
-              <Button bg="brand.lightGreen">Профиль</Button>
-            </Link> */}
-            {/* <Button bg="brand.lightGreen" marginTop={'0px !important'} display={{ base: "block", lg: "none" }} >
-            </Button> */}
             <Box bg="brand.lightGreen" marginTop={'0px !important'} display={{ base: "block", lg: "none" }}>
             <SizeExample/>
             </Box>
@@ -97,7 +84,7 @@ function MainLayout({ children }: Props) {
       <footer style={{ backgroundColor: "#00AC73", padding: "100px 20px" }} >
         <HStack style={defStyle} justifyContent="space-between" alignItems={'center'} gap={{ pls: "40px" }} flexDirection={{ pls: "column", md: "row" }} >
           <Stack w={{ sm: "100%", md: "25%" }} flexDirection={'row'} alignItems="center" justifyContent={'center'} textAlign={{ pls: 'center', md: "start" }}>
-            {/* <Image src={logo} alt="Logo" width={'150px'} height="150px" /> */}
+
             <Text variant="p" width={'90%'}>
               Серви поддерживает вас и помогает найти лекарства по выгодным
               ценам и с удобной круглосуточной доставкой почти в любую точку

@@ -20,21 +20,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/Discraption/Discraption": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Discraption/Discraption.js"
-    ],
-    "/Numcod/numcode": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Numcod/numcode.js"
-    ],
-    "/Register/register": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Register/register.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
