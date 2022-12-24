@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/Discraption/Discraption.js"
     ],
+    "/Numcod/numcode": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Numcod/numcode.js"
+    ],
     "/Register/register": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

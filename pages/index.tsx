@@ -5,7 +5,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Tablets from "../src/Components/Tablets";
-import Textf from "../src/Components/Textf";
 import MainLayout, { defStyle } from "../src/Layout/MainLayout";
 
 const Home: NextPage = () => {
@@ -17,21 +16,18 @@ const Home: NextPage = () => {
         <link rel="icon" href="/logop.png" />
       </Head>
       <MainLayout>
-        <Box>
-
-        </Box>
+        <Box></Box>
         <Box
-  bgImage="/pill.png"
+          bgImage="/pill.png"
           w="100%"
           height={{ sm: "500px", esm: "330px", pls: "330px" }}
           overflow="hidden"
           borderRadius="24px"
           style={defStyle}
-          backgroundSize={{pls: "105% 100%", md: "100% 190%"}}
-          backgroundPosition={{ pls: '0px 0px', md: '0px -200px'}}
-          objectFit={'contain'}
+          backgroundSize={{ pls: "105% 100%", md: "100% 190%" }}
+          backgroundPosition={{ pls: "0px 0px", md: "0px -200px" }}
+          objectFit={"contain"}
         >
-       
           <Center
             padding={"30px"}
             flexDir="column"
@@ -49,12 +45,26 @@ const Home: NextPage = () => {
                 md: "50px",
                 lg: "52px",
               }}
-              w="70%"
+              w="90%"
               color="white"
             >
               ZAK Pharmacy ваш здоровый выбор
             </Text>
-              <Textf/>
+            <Text
+              fontSize={{
+                smm: "15px",
+                pls: "22px",
+                esm: "32px",
+                sm: "44px",
+                md: "50px",
+                lg: "52px",
+              }}
+              w="100%"
+              color="white"
+            >
+              Заказать этиловый спирт стало очень просто
+            </Text>
+            <br />  
             <Link href="/Discraption/Discraption">
               <Button
                 bg="brand.lightGreen"
@@ -103,14 +113,13 @@ const Home: NextPage = () => {
                 bg="#00504D"
                 borderRadius="30px"
               ></Box>
-              <Box position="absolute" left="100px" top="100px"   >
+              <Box position="absolute" left="100px" top="100px">
                 <Img
                   height={{ md: "250px", lg: "250px", xl: "350px" }}
                   width={{ md: "250px", lg: "250px", xl: "350px" }}
                   display={{ base: "none", lg: "block" }}
                   style={{ borderRadius: "30px" }}
                   src="/zakkkk.png"
-   
                   alt=""
                 />
               </Box>
@@ -200,7 +209,7 @@ const Home: NextPage = () => {
               </Stack>
             </Box>
           </Box>
-        
+
           <Box marginTop="50px">
             <Image src="/Приложение.png" height="400px" width="1296px" alt="" />
           </Box>
