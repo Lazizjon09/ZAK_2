@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/Telegrambot/Telegrambot.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/Telegrambot/Telegrambot.tsx"],
   "exclude": ["node_modules"]
 }
